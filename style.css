@@ -1,4 +1,6 @@
+
 .flex-container{
+    margin-top: 5em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -7,28 +9,27 @@
 }
 
 img{
-    border: 2px solid black;
-    height: 200px;
-    width: fit-content;
+
+    height: 11em;
+    width: 18em;
 }
 
-
-
-.flex-items{
-    border: 5px solid rgb(3, 3, 3);
-}
+ .flex-items{
+    border: 2px solid rgb(3, 3, 3);
+} 
 
 footer{
     text-align: center;
     background-color:beige;
     display: block;
-    margin-top: auto;
+    margin: top 0;
     height: auto;
+    position: relative;
 }
 
-.index{
-    margin-top: 229px;
-}
+ .index{
+    margin-top: 155px; 
+ } 
 .form-container {
     display: flex;
     justify-content: center;
@@ -84,5 +85,11 @@ input[type="submit"] {
     padding: 10px 20px;
 
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;
 }
+
+
+
+
+
+ 
